@@ -2,7 +2,7 @@
 
 面向 BraTS L3 终验「专家目检验收」的盲评前后端：≥2 位神经放射学评审者在 web 界面完成视觉图灵（real/synth）+ Likert 4 维评分，产出 `brats-l3-responses/1`，供 `scripts.brats_l3_blind_eval aggregate` 消费并解锁 #58 的 `conclude` / `dm_source` 注册。
 
-设计前提与契约以 NV-Generate-CTMR 仓库的 `scripts/brats_l3_blind_eval.py`（stdlib、纯 python）为权威，本仓库不做重复实现，仅对接。术语见 `docs/CONTEXT.md`，硬决策见 `docs/adr/0001` 与 `0002`。
+设计前提与契约以 NV-Generate-CTMR 仓库的 `scripts/brats_l3_blind_eval.py`（stdlib、纯 python）为权威，本仓库不做重复实现，仅对接。术语见 `CONTEXT.md`，硬决策见 `docs/adr/0001` 与 `0002`。
 
 ## 1 架构总览
 
